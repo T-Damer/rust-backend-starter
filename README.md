@@ -1,9 +1,14 @@
-# rocket-mongo-api
+# Rust backend starter
 
-Build a REST API with Rust and MongoDB - Rocket Version
+REST API with Rust and MongoDB - Rocket Version
 
-This repository shows the source code for building a REST API with Rust and MongoDB using the Rocket framework.
+# Startup
 
-Article Link
+1. Clone the repo `git clone https://github.com/T-Damer/rust-backend-starter.git`
+2. Go into the folder `cd rust-backend-starter`
+3. Install dependencies `cargo install --path .`
+4. Create `.env` in project root, fill it properly, consider looking into `.env.sample`
+5. Start developing with `cargo watch -x run`
+6. To start the server run `cargo run`, to build binaries do `cargo build`
 
-[Article Link](https://dev.to/hackmamba/build-a-rest-api-with-rust-and-mongodb-rocket-version-ah5)
+Default endpoint is: `http://127.0.0.1:8000/`
